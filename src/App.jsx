@@ -84,8 +84,8 @@ const App = () => {
   // }, []);
 
   return (
-    <main>
-      <div className="pattern" />
+    <>
+
 
       {/* <div className="wrapper">
         <header>
@@ -131,7 +131,7 @@ const App = () => {
         <Route path={"/"} element={<HomePage />} />
         <Route path={"/movie/:id"} element={<MoviePage />} />
       </Routes>
-    </main>
+    </>
   )
 }
 

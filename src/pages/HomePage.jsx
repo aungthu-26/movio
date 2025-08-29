@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 const HomePage = () => {
     return (
         <div>
+            <div className="pattern" />
             <Hero />
         </div>
     )

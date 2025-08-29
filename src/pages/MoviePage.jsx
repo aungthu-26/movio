@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router';
 import Spinner from '../components/Spinner';
+import MovieDetails from '../components/MovieDetails';
 
 const MoviePage = () => {
     const { id } = useParams();
@@ -31,7 +32,9 @@ const MoviePage = () => {
     }
 
     return (
-        <div className='text-white'>MoviePage</div>
+        <>
+            <MovieDetails movie={movie} />
+        </>
     )
 }
 
